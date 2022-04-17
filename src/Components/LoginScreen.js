@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./LoginScreen.css";
 import SignInScreen from "./SignInScreen";
+
 function LoginScreen() {
   const [signIn, setSignin] = useState(false);
   return (
@@ -30,6 +31,10 @@ function LoginScreen() {
               <h4>Welcome back!</h4>
               <h1>Unlimited movies, TV shows and more.</h1>
               <h2>Watch anywhere. Cancel anytime.</h2>
+              <h4>
+                Ready to watch? Enter your email to create or restart your
+                membership.
+              </h4>
               <div className="loginScreen_input">
                 <form>
                   <input type="email" placeholder="Email Address" />
